@@ -3,15 +3,15 @@ import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 export default [
   {
-    path: '/',
-    component: Home
-  },
-  {
-    path: '/about',
+    path: 'about',
     component: About
   },
   {
-    path: '/contact',
+    path: 'contact',
     component: Contact
-  }
+  },
+  {
+    path: '*',
+    component: Home
+  },
 ];

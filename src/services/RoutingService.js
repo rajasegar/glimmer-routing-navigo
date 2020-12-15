@@ -2,6 +2,7 @@ import { renderComponent } from "@glimmer/core";
 
 export default class RoutingService {
   constructor(routes, root) {
+    /*
     this.registry = routes || [];
 
     document.addEventListener("click", this.route.bind(this));
@@ -31,6 +32,7 @@ export default class RoutingService {
 
     // Start observing the target node for configured mutations
     this.observer.observe(targetNode, config);
+    */
 
   }
 

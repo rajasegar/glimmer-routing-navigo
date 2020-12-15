@@ -4,6 +4,7 @@ dependencies:
   '@glimmer/helper': 2.0.0-beta.11_@babel+core@7.12.10
   '@glimmer/modifier': 2.0.0-beta.11
   '@glimmer/tracking': 2.0.0-beta.11
+  navigo: 7.1.2
 devDependencies:
   '@babel/core': 7.12.10
   '@babel/plugin-proposal-class-properties': 7.12.1_@babel+core@7.12.10
@@ -3108,6 +3109,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-a1cQNyczgKbLX9jwbS/+d7W8fX/RfgYR7lVWwWOGIPNgK2m0MWvrGF6/m4kk6U3QcFMnZf3RIhL0v2Jgh/0Uxw==
+  /navigo/7.1.2:
+    dev: false
+    resolution:
+      integrity: sha512-OlhxHxhLM62X0Sjbkp5wlm1V6GpOIKShFu7dS/fDS3cVqzMHYS880LT5tu6JjGkrSYQbtCNDADmRIP47MoVGlA==
   /node-releases/1.1.67:
     dev: false
     resolution:
@@ -4171,4 +4176,5 @@ specifiers:
   '@glimmer/tracking': 2.0.0-beta.11
   '@snowpack/babel-plugin-package-import': ^1.1.6
   '@snowpack/plugin-babel': ^2.1.5
+  navigo: ^7.1.2
   snowpack: ^2.18.4
