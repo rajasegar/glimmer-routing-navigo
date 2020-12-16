@@ -4,7 +4,7 @@ dependencies:
   '@glimmer/helper': 2.0.0-beta.11_@babel+core@7.12.10
   '@glimmer/modifier': 2.0.0-beta.11
   '@glimmer/tracking': 2.0.0-beta.11
-  navigo: 7.1.2
+  page: 1.11.6
 devDependencies:
   '@babel/core': 7.12.10
   '@babel/plugin-proposal-class-properties': 7.12.1_@babel+core@7.12.10
@@ -2786,6 +2786,10 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-fKzAra0rGJUUBwGBgNkHZuToZcn+TtXHpeCgmkMJMMYx1sQDYaCSyjJBSCa2nH1DGm7s3n1oBnohoVTBaN7Lww==
+  /isarray/0.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
   /isarray/1.0.0:
     dev: true
     resolution:
@@ -3109,10 +3113,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-a1cQNyczgKbLX9jwbS/+d7W8fX/RfgYR7lVWwWOGIPNgK2m0MWvrGF6/m4kk6U3QcFMnZf3RIhL0v2Jgh/0Uxw==
-  /navigo/7.1.2:
-    dev: false
-    resolution:
-      integrity: sha512-OlhxHxhLM62X0Sjbkp5wlm1V6GpOIKShFu7dS/fDS3cVqzMHYS880LT5tu6JjGkrSYQbtCNDADmRIP47MoVGlA==
   /node-releases/1.1.67:
     dev: false
     resolution:
@@ -3301,6 +3301,12 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
+  /page/1.11.6:
+    dependencies:
+      path-to-regexp: 1.2.1
+    dev: false
+    resolution:
+      integrity: sha512-P6e2JfzkBrPeFCIPplLP7vDDiU84RUUZMrWdsH4ZBGJ8OosnwFkcUkBHp1DTIjuipLliw9yQn/ZJsXZvarsO+g==
   /parent-module/1.0.1:
     dependencies:
       callsites: 3.1.0
@@ -3369,6 +3375,12 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-mkpoFMrBwM1zNgqV8yCDyOpHRbc=
+  /path-to-regexp/1.2.1:
+    dependencies:
+      isarray: 0.0.1
+    dev: false
+    resolution:
+      integrity: sha1-szcFwUAjTYc8hyHHuf2LVB7Tr/k=
   /path-type/4.0.0:
     dev: true
     engines:
@@ -4176,5 +4188,5 @@ specifiers:
   '@glimmer/tracking': 2.0.0-beta.11
   '@snowpack/babel-plugin-package-import': ^1.1.6
   '@snowpack/plugin-babel': ^2.1.5
-  navigo: ^7.1.2
+  page: ^1.11.6
   snowpack: ^2.18.4

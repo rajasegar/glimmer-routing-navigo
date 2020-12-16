@@ -1,4 +1,5 @@
 import Component from "@glimmer/component";
+import { renderComponent } from '@glimmer/core';
 import Navigo from 'navigo';
 import routes from './routes.js';
 
@@ -15,15 +16,8 @@ const LinkTo = setComponentTemplate(createTemplate(`
 
 function startNavigo(element) {
 
-  const router = new Navigo("/");
-  const navigoRoutes = routes(element);
-
-  router.on(navigoRoutes).resolve();
-
-  return () => {
-    router.destroy();
-  }
-
+  routes(element);
+  
 }
 
 const Router = setComponentTemplate(createTemplate({ startNavigo },`

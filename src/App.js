@@ -24,9 +24,9 @@ setComponentTemplate(
       <h1>Glimmer Routing demo</h1>
       <nav>
           <ul>
-            <li><LinkTo @route="/">Home</LinkTo></li>
-            <li><LinkTo @route="about">About</LinkTo></li>
-            <li><LinkTo @route="contact">Contact</LinkTo></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </nav>
    <main>

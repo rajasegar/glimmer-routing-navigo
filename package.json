@@ -13,7 +13,7 @@
     "@glimmer/helper": "2.0.0-beta.11",
     "@glimmer/modifier": "2.0.0-beta.11",
     "@glimmer/tracking": "2.0.0-beta.11",
-    "navigo": "^7.1.2"
+    "page": "^1.11.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
