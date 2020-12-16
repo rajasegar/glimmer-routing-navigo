@@ -7,6 +7,18 @@ import Contact from './pages/Contact.js';
 
 export default function(element) {
 
+page('*', function(ctx,  next){
+  if (ctx.init) {
+    next();
+  } else {
+    const className = document.querySelector('#lstTransitions').value;
+    element.firstElementChild.classList.add(className);
+    setTimeout(function(){
+      element.firstElementChild.classList.remove(className);
+      next();
+    }, 300);
+  }
+})
   page('/', () => {
     element.innerHTML = '';
     renderComponent(Home, element);

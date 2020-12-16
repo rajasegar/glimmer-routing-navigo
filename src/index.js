@@ -5,7 +5,7 @@ import LocaleService from './services/LocaleService.js';
 document.addEventListener(
   'DOMContentLoaded',
   () => {
-    const element = document.getElementById('app');
+    const element = document.body;
     renderComponent(App, {
       element: element,
       owner: {

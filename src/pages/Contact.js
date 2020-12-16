@@ -4,7 +4,13 @@ import {
   templateOnlyComponent,
 } from '@glimmer/core';
 
-const Contact = setComponentTemplate(createTemplate(`<h1>Contact Page</h1>`), templateOnlyComponent());
+const Contact = setComponentTemplate(createTemplate(`
+
+<div class="pt-page pt-page-3">
+  <h1>Contact Page</h1>
+  </div>
+
+  `), templateOnlyComponent());
 
 export default Contact;
 
