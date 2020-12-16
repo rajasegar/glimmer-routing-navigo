@@ -8,7 +8,7 @@ import {
 import './App.css';
 import logo from './logo.svg';
 
-import { Router, Link } from './GlimmerRouter.js';
+import { Router, LinkTo } from './GlimmerRouter.js';
 
 
 class App extends Component {
@@ -18,15 +18,15 @@ class App extends Component {
 
 setComponentTemplate(
   createTemplate(
-    { Router, Link },
+    { Router, LinkTo },
     `
       <img src={{this.logo}} width="128"/>
       <h1>Glimmer Routing demo</h1>
       <nav>
           <ul>
-            <li><Link @to="/">Home</Link></li>
-            <li><Link @to="about">About</Link></li>
-            <li><Link @to="contact">Contact</Link></li>
+            <li><LinkTo @route="/">Home</LinkTo></li>
+            <li><LinkTo @route="about">About</LinkTo></li>
+            <li><LinkTo @route="contact">Contact</LinkTo></li>
           </ul>
         </nav>
    <main>
