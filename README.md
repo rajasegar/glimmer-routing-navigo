@@ -1,4 +1,4 @@
-# glimmer-snowpack
+# glimmer-routing-navigo
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
